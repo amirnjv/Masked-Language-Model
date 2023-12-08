@@ -5,7 +5,7 @@
 ## Introduction
 This project showcase how we can buil a Masked Language Model (MLM) using the Hugging Face Transformers. Masked Language Modeling (MLM) is a pre-training technique for deep learning models in NLP. It works by randomly masking a portion of the input tokens in a sentence and asking the model to **predict the masked tokens**. The focus is on utilizing the Bert Encoder Network, particularly its ability to predict masked words in a sentence based on contextual and semantic understanding.
 
-## Understanding the Bert Encoder Network
+## Bert Encoder Network
 Before diving into the practical aspects, it's essential to understand the core component of our project: the Bert Encoder Network. Bert, short for Bidirectional Encoder Representations from Transformers, is renowned for its effectiveness in understanding the context and semantic meaning of words in sentences. The model's ability to predict masked words - words that are intentionally hidden during training - is a cornerstone of its design. This guide will explore how Bert processes input data and the theory behind its training methodology.
 
 ## Dataset and Preprocessing
